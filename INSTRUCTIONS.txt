@@ -2,24 +2,7 @@
 Instructions.txt
 ================
 
-How to Compile, Run, and Use the Console Game Launcher Project
---------------------------------------------------------------
-
-1. COMPILATION INSTRUCTIONS
-
-This project is written in C++ and is designed for Windows systems. It can be compiled using any standard C++ compiler.
-
-To compile using terminal (g++ example):
-    g++ GameLauncher.cpp -o play 
-
-To run the executable:
-    ./play
-
-Alternatively, you can use an IDE like Code::Blocks, Dev-C++, or Visual Studio to build and run the project.
-
---------------------------------------------------------------
-
-2. PROGRAM FLOW OVERVIEW
+1. PROGRAM FLOW OVERVIEW
 
 After launching the program, the following steps occur:
 
@@ -38,7 +21,7 @@ After a successful login, you will see three options:
 
 --------------------------------------------------------------
 
-3. FEATURES DESCRIPTION
+2. FEATURES DESCRIPTION
 
 OPTION 1: INSTALL GAME
 - This allows you to install a new game from the available options.
@@ -71,7 +54,7 @@ OPTION 3: EXIT
 
 --------------------------------------------------------------
 
-4. TECHNICAL NOTES
+3. TECHNICAL NOTES
 - This project demonstrates core Object-Oriented Programming concepts:
     - Inheritance
     - Polymorphism (via the virtual play() method)
